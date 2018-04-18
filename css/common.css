@@ -1,0 +1,31 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  /* 去除a链接下划线 */
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* common css */
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+.button {
+
+}
+body {
+  font: 14px/1.5 Arial;
+  background-color: #eee;
+  color: #444;
+}
+.layout {
+  width: 1050px;
+  margin: 0 auto;
+}
