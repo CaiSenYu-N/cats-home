@@ -20,7 +20,7 @@ ul {
 .button {
   display: inline-block;
   border-radius: 4px;
-  font-size: 22px;
+  font-size: 18px;
   color: #fff;
   background-color: #f7ba3e;
   margin-top: 20px;
@@ -31,11 +31,11 @@ ul {
   opacity: 1;
 }
 body {
-  font: 14px/1.5 Arial;
+  font: 14px/1.5 tahoma,"microsoft yahei","\5FAE\8F6F\96C5\9ED1"!important;
   background-color: #eee;
   color: #444;
 }
 .layout {
-  /* width: 1050px; */
+  width: 1050px;
   margin: 0 auto;
 }
