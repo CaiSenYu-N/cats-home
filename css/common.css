@@ -18,7 +18,17 @@ ul {
   clear: both;
 }
 .button {
-
+  display: inline-block;
+  border-radius: 4px;
+  font-size: 22px;
+  color: #fff;
+  background-color: #f7ba3e;
+  margin-top: 20px;
+  padding: 5px 10px;
+  opacity: 0.8;
+}
+.button:hover {
+  opacity: 1;
 }
 body {
   font: 14px/1.5 Arial;
@@ -26,6 +36,6 @@ body {
   color: #444;
 }
 .layout {
-  width: 1050px;
+  /* width: 1050px; */
   margin: 0 auto;
 }

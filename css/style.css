@@ -3,7 +3,7 @@ html,body {
 }
 header {
   height: 100%;
-  min-height: 600px;
+  /* min-height: 600px; */
   background: #000 url(../image/beijing.png)
   center center no-repeat;
   background-size: cover;
@@ -13,6 +13,7 @@ header .logo {
   color: #f7ba3e;
   font-size: 32px;
   float: left;
+  margin-top: 10px;
 }
 header ul {
   float: right;
@@ -28,9 +29,24 @@ header ul > li > a {
   color: #fff;
   font-size: 16px;
 }
-header ul > li > a:hover{
+header ul > li > a:hover {
   background: #f7ba3e;
 }
-header .logo:hover{
+header .logo:hover {
   background: #aaa;
+}
+header .intro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  text-align: center;
+}
+header .intro h1 {
+  font-size: 32px;
+}
+header .intro h2 {
+  font-size: 28px;
+  margin-top: 20px;
 }
