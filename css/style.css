@@ -8,6 +8,7 @@ header {
   background: #000 url(../image/beijing.png)
   center center no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 /*
 背景透明
@@ -28,6 +29,13 @@ header .logo {
   font-size: 28px;
   float: left;
   margin-top: 10px;
+  text-shadow: 0 0 20px yellow;
+  font-family: Comic Sans Ms;
+  box-shadow:5px 5px 10px gray;
+  position: fixed;
+}
+header .logo:hover {
+  background: #aaa;
 }
 header ul {
   float: right;
@@ -43,12 +51,10 @@ header ul > li > a {
   color: #fff;
   font-size: 16px;
   font-weight: 150;
+  text-shadow: 0 0 20px yellow;
 }
 header ul > li > a:hover {
   background: #f7ba3e;
-}
-header .logo:hover {
-  background: #aaa;
 }
 header .intro {
   position: absolute;
@@ -66,4 +72,141 @@ header .intro h2 {
   font-size: 26px;
   font-weight: 150;
   margin-top: 20px;
+}
+section {
+  text-align: center;
+  margin-top: 30px;
+}
+section > h2 {
+  text-shadow: 0 0 20px yellow;
+  font-family: Comic Sans Ms;
+  font-size: 35PX;
+  color: #f7ba3e;
+}
+section > p {
+  border-bottom: 3px solid yellow;
+}
+section  p {
+  font-family:Comic Sans Ms;
+  margin-top: 10px;
+  font-weight: 150;
+  color: rgba(36,36,56,.9);
+  margin-top: 10px;
+}
+section .family-intro > li {
+  font-size: 15.4px;
+  float: left;
+  width: 33%;
+  padding: 10px 20px;
+  margin-top: 95px;
+  margin-bottom: 90px;
+}
+ul > li > h3 {
+  text-shadow: 0 0 20px yellow;
+  font-family: Comic Sans Ms;
+  color: #f7ba3e;
+}
+section .family figure {
+  width: calc(33.33% - 20px);
+  height: 460px;
+  margin: 10px;
+  float: left;
+}
+section .family img {
+  width: 100%;
+  height:100%;
+}
+section .family a {
+  display: block;
+  height: 330px;
+}
+section .family figcaption {
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 10px;
+
+  text-shadow: 0 0 20px yellow;
+  font-family: Comic Sans Ms;
+  color: #f7ba3e;
+}
+section .family p {
+  color: #666;
+  margin-top: 10px;
+}
+section .growth > li {
+  position: relative;
+  margin-top: 80px;
+}
+section .growth > li:nth-child(odd) {
+  padding-right: calc(50% - 50px);
+  text-align: right;
+}
+section .growth > li ::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+section .growth img,
+section .growth .img {
+  display: inline-block;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  padding-top: 0px;
+  border-radius: 50%;
+  box-shadow: 0 0 30px #f7ba3e;
+}
+section .growth .cat {
+  padding-top: 25px;
+  font-size: 30px;
+  font-family:Comic Sans Ms;
+  font-weight: 150;
+  color: #f7ba3e;
+}
+section .growth li:nth-child(odd) dl {
+  margin-right: 120px;
+}
+section .growth > li:nth-child(even) {
+  padding-left: calc(50% - 50px);
+  text-align: left;
+}
+section .growth > li:nth-child(even) dl {
+  margin-left: 120px;
+}
+section .growth > li:nth-child(odd) img {
+  float: right;
+}
+section .growth > li:nth-child(even) img {
+  float: left;
+}
+section .growth dt {
+  font-size: 23px;
+  font-weight: bold;
+}
+section .growth dd {
+  font-size: 16px;
+  font-family:Comic Sans Ms;
+  margin-top: 10px;
+  font-weight: 150;
+  color: rgba(36,36,56,.9);
+  margin-top: 10px;
+}
+section .growth > li::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  margin-left: 0px;
+  display: inline-block;
+  height: 280px;
+  width: 4px;
+  background-color: #f7ba3e;
+  box-shadow: 0 0 30px #f7ba3e;
+}
+section .growth > li:last-child::before {
+  height: 0px;
+}
+footer {
+  background-color: rgba(240,230,200,.8);
+  color: #aaa;
 }
