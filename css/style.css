@@ -28,7 +28,7 @@ header .logo {
   color: #f7ba3e;
   font-size: 28px;
   float: left;
-  margin-top: 10px;
+  margin: 10px 0px 0px 70px;
   text-shadow: 0 0 20px yellow;
   font-family: Comic Sans Ms;
   box-shadow:5px 5px 10px gray;
@@ -206,7 +206,79 @@ section .growth > li::before {
 section .growth > li:last-child::before {
   height: 0px;
 }
+#content:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#content h2 {
+  text-shadow: 0 0 20px yellow;
+  font-family: Comic Sans Ms;
+  font-size: 35PX;
+  margin-top: 97px;
+  color: #f7ba3e;
+  position: relative;
+  text-align: center;
+}
+#content p {
+  font-family: Comic Sans Ms;
+  color: #777;
+  margin-bottom: 75px;
+  position: relative;
+  text-align: center;
+}
+.input-user {
+  width: 600px;
+  float: left;
+}
+.input-message {
+  float: right;
+}
+.user {
+  border: 1px solid#f7ba3e;
+  border-radius: 10px;
+  font-size: 15px;
+  width: 450px;
+  height: 60px;
+  margin-top: 15px;
+  box-shadow: 0 0 10px #f7ba3e;
+}
+.message {
+  border: 1px solid #f7ba3e;
+  border-radius: 10px;
+ font-size: 15px;
+  width: 450px;
+  height: 210px;
+  margin-top: 15px;
+  box-shadow: 0 0 10px #f7ba3e;
+}
+#content .form-button {
+  color: #fff;
+  background-color: #fed136;
+  border-color: #fed136;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 20px 40px;
+  display: inline-block;
+  margin: 100px 412px;
+}
 footer {
-  background-color: rgba(240,230,200,.8);
+  text-align: center;
+  background: #f7ba3e;
+  color: #fff;
+}
+footer > p > a {
+  display: inline-block;
+  padding: 5px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 150;
+  text-shadow: 0 0 20px #aaa;
+}
+footer > p > a:hover {
   color: #aaa;
 }
