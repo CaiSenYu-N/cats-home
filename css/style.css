@@ -23,7 +23,7 @@ header::before {
   background: rgba(255,0,0,.1);
 } */
 header .logo {
-  border-radius: 4px;
+  border-radius: 3px;
   font-weight: 150;
   color: #f7ba3e;
   font-size: 28px;
@@ -46,8 +46,8 @@ header ul > li {
 }
 header ul > li > a {
   display: inline-block;
-  padding: 5px;
-  border-radius: 4px;
+  padding: 4px;
+  border-radius: 3px;
   color: #fff;
   font-size: 16px;
   font-weight: 150;
